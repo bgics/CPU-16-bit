@@ -10,7 +10,7 @@
 
 	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
 		\item Designed and implemented a 16-bit RISC microprocessor in VHDL with a 20-state FSM controller executing 16 instructions across arithmetic (ADD, SUB, MUL), logical (AND, OR, IMP), memory (LW, SW), and branching operations (BEQ, JAL, JLR)
-		\item Architected an optimized datapath featuring 8 general-purpose registers, 16-bit ALU, dual-port register file, and separate instruction/data memory to enable efficient multicycle instruction execution
+		\item Architected an optimized datapath with 8 general-purpose registers and 16-bit ALU, featuring dual-port register file and separate instruction/data memory for efficient multicycle instruction execution
 		\item Optimized FSM state transitions through strategic state merging and parallel operation scheduling, minimizing clock cycles per instruction and improving processor throughput by 25\%
 		\item Validated design by implementing and testing a Fibonacci number generator on FPGA hardware, demonstrating correct operation across arithmetic, memory access, and control flow instructions
 		\item Developed a Python-based assembler that parses assembly code and generates machine-readable binary, automatically writing to \texttt{im\_memory.vhd} and streamlining the development workflow
