@@ -9,9 +9,9 @@
 	\vspace{-7pt}
 
 	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
-		\item Designed a 16-bit RISC microprocessor in VHDL with 20-state FSM executing 16 instructions (ADD, SUB, MUL, AND, OR, LW, SW, BEQ, JAL), 8 registers, and 16-bit ALU with dual-port register file
-		\item Implemented state merging to reduce FSM complexity by 25\% and minimize clock cycles per instruction
-		\item Developed Python assembler to parse assembly code and generate binary for \texttt{im\_memory.vhd}
-		\item Tested Fibonacci generator on FPGA hardware to verify processor functionality
+		\item Designed a 16-bit RISC microprocessor in VHDL with 20-state FSM controller, 8 registers, 16-bit ALU, and support for 16 instructions (ADD, SUB, MUL, AND, OR, LW, SW, BEQ, JAL)
+		\item Implemented state merging and transition optimization to reduce FSM complexity by 25\% and minimize clock cycles per instruction
+		\item Developed a Python-based assembler that parses assembly programs and automatically generates binary machine code for \texttt{im\_memory.vhd}
+		\item Implemented and tested a Fibonacci sequence generator on FPGA hardware to verify correct processor operation and instruction execution
 	\end{itemize}
 \end{flushleft}
